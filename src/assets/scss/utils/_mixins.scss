@@ -1,0 +1,18 @@
+@use "../utils/variables";
+
+@mixin flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin btn {
+  border-radius: 24px;
+  background-color: variables.$primary-purple;
+  color: variables.$white;
+  transition: background-color 500ms ease-in-out;
+  cursor: pointer;
+}
+@mixin btnHover {
+  background-color: variables.$primary-purple-hover;
+}

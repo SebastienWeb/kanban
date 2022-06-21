@@ -1,0 +1,8 @@
+@use "../utils/mixins";
+
+.btn {
+  @include mixins.btn;
+  &:hover {
+    @include mixins.btnHover;
+  }
+}
